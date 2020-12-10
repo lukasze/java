@@ -1,19 +1,14 @@
 package org.example.javaintro.step1;
-/*
-    TODO 2 klasa - 'pudelko' z danymi i metodami
-    pelna nazwa to pakiet+nazwa klasy
- */
-class HelloWorld {
-    // TODO 3
-    // metoda glowna - wejscie do programu javy
-    // uzywam skrotow intelij : psvm
 
+class HelloWorld {
     public static void main(String[] args) {
-        // TODO 4
-        // wydukuj do konsoli napis : sout
         System.out.println("Hello, World!");
     }
-
-
-
 }
+
+/*
+    TODO 1 utworz pakiet org.example.javaintro.step1.exercises
+    TODO 2 utworz dwolna klase z metoda main i w niej wydrukuj napis do konsoli
+    uzyj skrotow psvm, sout
+    TODO 3 commit zmian do GIT
+ */

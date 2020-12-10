@@ -12,12 +12,4 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
-<!--
-    TODO 1
-    Maven - standard budowania projektw w wiecie Javy
-    - zarzadzanie bibliotekami
-    - spojna struktura projektu
-    - maven konfigurujemy odpowiednimi wpisami w pliku pom
-
--->
 </project>
