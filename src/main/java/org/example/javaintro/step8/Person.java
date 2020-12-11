@@ -1,6 +1,7 @@
 package org.example.javaintro.step8;
 
 public class Person {
+
     String name;
     String lastName;
 
@@ -18,5 +19,13 @@ public class Person {
 
     public String getLastName() {
         return lastName;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", lastName='" + lastName + '\'' +
+                '}';
     }
 }
