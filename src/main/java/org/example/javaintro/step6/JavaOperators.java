@@ -38,7 +38,14 @@ public class JavaOperators {
         System.out.println("a > b: " + (a > b));
         System.out.println("a >= b: " + (a >= b));
         System.out.println("a > -200: " + (a > -200));
+
+        // wariant 1
         System.out.println("a != 10: " + (a != 10));
+        // wariant 2
+        String komunikat = "a != 10: ";
+        boolean aMniejszeOdB = a != 10;
+        String napisKtoryChcemyWydrukowac = komunikat+aMniejszeOdB;
+        System.out.println(napisKtoryChcemyWydrukowac);
 
     }
 }
