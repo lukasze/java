@@ -14,14 +14,6 @@
     </properties>
 
     <dependencies>
-<!--    TODO 1 pora na pierwszy test
-        Zamiast ręcznego ładowanie bibliotek - maven
-
-        .m2 , maven central
-
-        dodaj zależność junit-jupiter-api
--->
-
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
